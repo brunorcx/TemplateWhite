@@ -1,0 +1,343 @@
+.App {
+  display: grid;
+  text-align: center;
+  background: linear-gradient(to bottom, #f8faff, #eff3fa 70.71%);
+  overflow-x: hidden;
+}
+.App .CentralizedText {
+  color: white;
+  font-size: 2.5vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+.App button {
+  color: #424a4e;
+  font-size: 1vw;
+  background: transparent;
+  border-radius: 25px;
+  text-transform: uppercase;
+  padding: 1.5% 4%;
+  font-weight: bold;
+  border: solid 1px #424a4e;
+  transition: 0.5s;
+}
+.App button:hover {
+  color: white;
+  background: #424a4e;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.App .Sobre {
+  position: relative;
+}
+.App .Sobre img {
+  max-width: 100%;
+  margin-top: calc(-10px - 2vmin - 90px);
+  vertical-align: middle;
+}
+.App .Planos {
+  position: relative;
+  color: rgba(66, 74, 78, 0.8);
+}
+.App .Planos h1 {
+  margin-top: 7%;
+}
+.App .Planos span {
+  font-size: 1vw;
+}
+.App .Planos img {
+  max-width: 100%;
+}
+.App .Planos button {
+  margin: 2rem 0;
+  padding: 1% 2.6%;
+}
+.App .Planos .grid-3-invsible {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-areas: "area-1 area-2 area-3";
+  margin: 0 10%;
+  opacity: 0;
+}
+.App .Planos .grid-3 {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-template-areas: "area-1 area-2 area-3";
+  margin: 0 10%;
+  opacity: 1;
+}
+.App .Planos .grid-3 li {
+  text-align: left;
+  margin-left: 10%;
+  margin-bottom: 7%;
+}
+.App .Planos .grid-3 .area-1 {
+  animation-name: translateY;
+  animation-duration: 1.5s;
+  opacity: 1;
+}
+.App .Planos .grid-3 .area-2 {
+  animation-name: translateY;
+  animation-duration: 1.5s;
+  opacity: 1;
+  animation-duration: 2s;
+  border-right: 1px solid rgba(66, 74, 78, 0.5);
+  border-left: 1px solid rgba(66, 74, 78, 0.5);
+}
+.App .Planos .grid-3 .area-3 {
+  animation-name: translateY;
+  animation-duration: 1.5s;
+  opacity: 1;
+  animation-duration: 2.4s;
+}
+.App .Planos p {
+  margin-bottom: 5%;
+}
+.App .Modelos {
+  position: relative;
+  background: linear-gradient(to bottom, #e9ecf8, #eff3fa 70.71%);
+  color: rgba(66, 74, 78, 0.8);
+  font-size: 1.5vw;
+}
+.App .Modelos .grid-2 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-areas: "area-1 area-2";
+}
+.App .Modelos .grid-21 {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-areas: "area-1 area-2";
+}
+.App .Modelos .grid-21 .translate {
+  animation-name: translate-X;
+  animation-duration: 2s;
+  opacity: 1;
+}
+.App .Modelos .area-1 {
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.App .Modelos .area-1 p {
+  opacity: 0;
+}
+.App .Modelos .area-1 .easy-in {
+  opacity: 1;
+  transition: ease-in 2s;
+}
+.App .Modelos .translate {
+  animation-name: translateX;
+  animation-duration: 2s;
+  opacity: 1;
+}
+.App .Modelos img {
+  mask-image: linear-gradient(160deg, #000000 60%, transparent 110%);
+  max-width: 100%;
+  opacity: 0;
+  transition: ease-in 0.3s;
+}
+.App .Modelos img:hover {
+  transform: translateY(-2%);
+  transition: ease-in 0.3s;
+}
+.App .Modelos button {
+  align-self: center;
+  margin: 2rem 0;
+  padding: 1% 2.6%;
+}
+.App .Contatos {
+  position: relative;
+  background: linear-gradient(to bottom, #010714, #000000 70.71%);
+}
+.App .Contatos h1 {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.7);
+  background: linear-gradient(to bottom, #000000, #000000 70.71%);
+}
+.App .Contatos p {
+  position: relative;
+  display: flex;
+  align-self: flex-start;
+  padding-left: 8%;
+  top: -25%;
+  font-size: 1.8vw;
+  color: rgba(255, 255, 255, 0.7);
+}
+.App .Contatos .CentralizedText {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "area-1 area-2";
+}
+.App .Contatos .area-1 {
+  transform: translate(-50%, -20%);
+}
+.App .Contatos .area-1 img {
+  mask-image: linear-gradient(160deg, #000000 60%, transparent 110%);
+}
+.App .Contatos .area-1 span {
+  position: relative;
+  display: flex;
+  top: -27%;
+  align-self: flex-start;
+  padding-left: 8%;
+  font-size: 1.3vw;
+  color: rgba(255, 255, 255, 0.4);
+}
+.App .Contatos .area-2 {
+  transform: translate(50%, -20%);
+}
+.App .Contatos .area-2 img {
+  mask-image: linear-gradient(160deg, #000000 60%, transparent 110%);
+}
+.App .Contatos .area-2 span {
+  display: flex;
+  position: relative;
+  align-self: flex-start;
+  padding-left: 8%;
+  top: -27%;
+  font-size: 1.3vw;
+  color: rgba(255, 255, 255, 0.4);
+}
+.App .Contatos img {
+  max-width: 100%;
+}
+.App .Contatos button {
+  position: relative;
+  top: -10%;
+  padding: 1% 2.6%;
+}
+.App .Contatos a {
+  color: white;
+}
+.App .Contatos .linkedin {
+  cursor: pointer;
+  position: relative;
+  float: right;
+  top: -34%;
+  padding: 2%;
+  transition: ease-in 0.3s;
+}
+.App .Contatos .linkedin:hover {
+  transform: translateY(-5%);
+  transition: ease-in 0.3s;
+  color: #00a0dc;
+}
+.App .Contatos .service {
+  background: linear-gradient(to bottom, #f8faff, #eff3fa 70.71%);
+  color: rgba(66, 74, 78, 0.8);
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-areas: "grid-1 grid-2";
+}
+.App .Contatos .service .grid-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2% 4%;
+}
+.App .Contatos .service .grid-2 {
+  padding-top: 2.5%;
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-template-rows: 48% 48%;
+  text-align: initial;
+  grid-template-areas: "subgrid-1 subgrid-2 
+                              subgrid-3 subgrid-4";
+}
+.App .Contatos .service .grid-2 p {
+  padding: 0%;
+  padding-right: 5%;
+  top: 0%;
+}
+.App .Contatos .service .grid-2 .subgrid-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid rgba(66, 74, 78, 0.8);
+}
+.App .Contatos .service .grid-2 .subgrid-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid rgba(66, 74, 78, 0.8);
+}
+.App .Contatos .service .grid-2 .subgrid-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid rgba(66, 74, 78, 0.8);
+  border-bottom: none;
+}
+.App .Contatos .service .grid-2 .subgrid-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid rgba(66, 74, 78, 0.8);
+  border-bottom: none;
+}
+.App .Contatos .service h1 {
+  background: transparent;
+  color: rgba(66, 74, 78, 0.8);
+  padding-bottom: 1%;
+}
+.App .Contatos .service p {
+  background: transparent;
+  color: rgba(66, 74, 78, 0.8);
+  padding-top: 10%;
+  font-size: 1.5vw;
+}
+.App .App-header {
+  font-size: calc(5px + 2vmin);
+  font-weight: bold;
+}
+.transparent {
+  background: none;
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes translateX {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes translate-X {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes translateY {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+.translateX {
+  animation-name: translateX;
+  animation-duration: 2s;
+  opacity: 1;
+}
+.translate-X {
+  animation-name: translate-X;
+  animation-duration: 2s;
+  opacity: 1;
+}
+.translateY {
+  animation-name: translateY;
+  animation-duration: 1.5s;
+  opacity: 1;
+}

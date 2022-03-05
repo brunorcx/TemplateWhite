@@ -1,0 +1,35 @@
+.totalNav {
+  z-index: 1;
+  position: fixed;
+  background: rgba(136, 150, 157, 0.5);
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  color: whitesmoke;
+  transition: 1s;
+  // position: absolute; //Precisa ter absolute para o navbar ficar por cima da img
+  ul {
+    list-style: none;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    li {
+      padding: 0.5% 2%;
+      &:hover {
+        cursor: pointer;
+        color: aqua;
+      }
+    }
+  }
+  img {
+    padding-left: 5%;
+    height: 80px;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+}
+.transparent {
+  .totalNav();
+  background: none;
+}
