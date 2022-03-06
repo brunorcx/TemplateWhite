@@ -2,7 +2,7 @@ import "../Styles/Navbar.css";
 const Navbar = (props) => {
   return (
     <div className={props.transparent ? "transparent" : "totalNav"}>
-      <img src="/Logo.png" alt="logo"></img>
+      <img className="logo" src="/Logo.png" alt="logo"></img>
       <ul>
         <li onClick={() => props.setNavbarClick("Sobre")}>Sobre</li>
         <li onClick={() => props.setNavbarClick("Planos")}>Planos</li>
