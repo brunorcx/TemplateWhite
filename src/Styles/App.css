@@ -286,8 +286,7 @@
   grid-template-columns: 48% 48%;
   grid-template-rows: 48% 48%;
   text-align: initial;
-  grid-template-areas: "subgrid-1 subgrid-2 
-                              subgrid-3 subgrid-4";
+  grid-template-areas: "subgrid-1 subgrid-2 " "subgrid-3 subgrid-4";
 }
 .App .Contatos .service .grid-2 p {
   padding: 0%;
