@@ -1,3 +1,44 @@
+@keyframes translateX {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes translate-X {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes translateY {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+.translateX {
+  animation-name: translateX;
+  animation-duration: 2s;
+  opacity: 1;
+}
+.translate-X {
+  animation-name: translate-X;
+  animation-duration: 2s;
+  opacity: 1;
+}
+.translateY {
+  animation-name: translateY;
+  animation-duration: 1.5s;
+  opacity: 1;
+}
 .App {
   display: grid;
   text-align: center;
@@ -299,45 +340,4 @@
 }
 .App-link {
   color: #61dafb;
-}
-@keyframes translateX {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
-}
-@keyframes translate-X {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
-}
-@keyframes translateY {
-  0% {
-    transform: translateY(100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0%);
-    opacity: 1;
-  }
-}
-.translateX {
-  animation-name: translateX;
-  animation-duration: 2s;
-  opacity: 1;
-}
-.translate-X {
-  animation-name: translate-X;
-  animation-duration: 2s;
-  opacity: 1;
-}
-.translateY {
-  animation-name: translateY;
-  animation-duration: 1.5s;
-  opacity: 1;
 }
