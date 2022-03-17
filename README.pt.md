@@ -19,7 +19,7 @@ também é possível visualizar erros de *lint*.
 
 *OB1: A versão para dispositivos móveis será atualizada em breve.
 
-## Tecnologias utlizadas
+## Ferramentas e linguagens
 <div style="display: inline_block"><br>
   <img align="center" alt="Javascript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
