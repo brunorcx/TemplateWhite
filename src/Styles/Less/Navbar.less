@@ -1,3 +1,8 @@
+@import "Colors.less";
+@import "MediaQuery.less";
+// @media @tablet {
+//  width: 768px;
+//}
 .totalNav {
   z-index: 1;
   position: fixed;
@@ -8,11 +13,26 @@
   justify-content: flex-start;
   color: whitesmoke;
   transition: 1s;
+
   // position: absolute; //Precisa ter absolute para o navbar ficar por cima da img
+  img {
+    padding: 0 0 1% 5%;
+    height: 50px;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+  .MobHamburger {
+    display: none;
+  }
+  .Nav2 {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
   ul {
     list-style: none;
     display: flex;
-    width: 70%;
+    width: 100%;
     justify-content: center;
     li {
       padding: 0.5% 2%;
@@ -22,11 +42,59 @@
       }
     }
   }
-  img {
-    padding: 0 0 1% 5%;
-    height: 50px;
-    object-fit: cover;
-    object-position: 50% 50%;
+
+  @media @phone {
+    align-items: flex-start;
+    display: block;
+    background: none;
+    .Nav1 {
+      display: flex;
+
+      img {
+        height: 25px;
+        flex: 8;
+        margin: 2%;
+        padding: 0;
+      }
+      .Slide {
+        margin: 2%;
+        display: flex;
+        justify-content: flex-end;
+        width: 80%;
+      }
+      .MobHamburger {
+        margin: 2%;
+        display: flex;
+        justify-content: flex-end;
+        width: 80%;
+      }
+    }
+    .Nav2 {
+      display: flex;
+      transition: 1s;
+      transform: translateX(100%);
+      background: #4d565b;
+      height: 100vh;
+      opacity: 0;
+    }
+    ul {
+      flex-direction: column;
+      margin: 0;
+      padding: 0%;
+      li {
+        padding: 2%;
+      }
+    }
+
+    .translateInX {
+      display: flex;
+      align-items: center;
+      transition: 1s;
+      transform: translateX(0%);
+      width: 100%;
+      background: #4d565b;
+      height: 100vh;
+    }
   }
 }
 .transparent {

@@ -9,10 +9,24 @@
   color: whitesmoke;
   transition: 1s;
 }
+.totalNav img {
+  padding: 0 0 1% 5%;
+  height: 50px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.totalNav .MobHamburger {
+  display: none;
+}
+.totalNav .Nav2 {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
 .totalNav ul {
   list-style: none;
   display: flex;
-  width: 70%;
+  width: 100%;
   justify-content: center;
 }
 .totalNav ul li {
@@ -22,11 +36,58 @@
   cursor: pointer;
   color: aqua;
 }
-.totalNav img {
-  padding: 0 0 1% 5%;
-  height: 50px;
-  object-fit: cover;
-  object-position: 50% 50%;
+@media only screen and (min-width: 320px) and (max-width: 530px) {
+  .totalNav {
+    align-items: flex-start;
+    display: block;
+    background: none;
+  }
+  .totalNav .Nav1 {
+    display: flex;
+  }
+  .totalNav .Nav1 img {
+    height: 25px;
+    flex: 8;
+    margin: 2%;
+    padding: 0;
+  }
+  .totalNav .Nav1 .Slide {
+    margin: 2%;
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+  }
+  .totalNav .Nav1 .MobHamburger {
+    margin: 2%;
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+  }
+  .totalNav .Nav2 {
+    display: flex;
+    transition: 1s;
+    transform: translateX(100%);
+    background: #4d565b;
+    height: 100vh;
+    opacity: 0;
+  }
+  .totalNav ul {
+    flex-direction: column;
+    margin: 0;
+    padding: 0%;
+  }
+  .totalNav ul li {
+    padding: 2%;
+  }
+  .totalNav .translateInX {
+    display: flex;
+    align-items: center;
+    transition: 1s;
+    transform: translateX(0%);
+    width: 100%;
+    background: #4d565b;
+    height: 100vh;
+  }
 }
 .transparent {
   z-index: 1;
@@ -40,10 +101,24 @@
   transition: 1s;
   background: none;
 }
+.transparent img {
+  padding: 0 0 1% 5%;
+  height: 50px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+.transparent .MobHamburger {
+  display: none;
+}
+.transparent .Nav2 {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
 .transparent ul {
   list-style: none;
   display: flex;
-  width: 70%;
+  width: 100%;
   justify-content: center;
 }
 .transparent ul li {
@@ -53,9 +128,56 @@
   cursor: pointer;
   color: aqua;
 }
-.transparent img {
-  padding: 0 0 1% 5%;
-  height: 50px;
-  object-fit: cover;
-  object-position: 50% 50%;
+@media only screen and (min-width: 320px) and (max-width: 530px) {
+  .transparent {
+    align-items: flex-start;
+    display: block;
+    background: none;
+  }
+  .transparent .Nav1 {
+    display: flex;
+  }
+  .transparent .Nav1 img {
+    height: 25px;
+    flex: 8;
+    margin: 2%;
+    padding: 0;
+  }
+  .transparent .Nav1 .Slide {
+    margin: 2%;
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+  }
+  .transparent .Nav1 .MobHamburger {
+    margin: 2%;
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+  }
+  .transparent .Nav2 {
+    display: flex;
+    transition: 1s;
+    transform: translateX(100%);
+    background: #4d565b;
+    height: 100vh;
+    opacity: 0;
+  }
+  .transparent ul {
+    flex-direction: column;
+    margin: 0;
+    padding: 0%;
+  }
+  .transparent ul li {
+    padding: 2%;
+  }
+  .transparent .translateInX {
+    display: flex;
+    align-items: center;
+    transition: 1s;
+    transform: translateX(0%);
+    width: 100%;
+    background: #4d565b;
+    height: 100vh;
+  }
 }
