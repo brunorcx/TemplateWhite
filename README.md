@@ -17,7 +17,7 @@ You will also see any lint errors in the console.
 ## About the project
 This is modern looking template for a website with animations
 
-*PS1: Mobile version will be updated soon.
+*PS1: Mobile version will be updated soon.*
 
 ## Tools and languages
 <div style="display: inline_block"><br>
