@@ -44,6 +44,7 @@
   }
   .totalNav .Nav1 {
     display: flex;
+    background: rgba(136, 150, 157, 0.5);
   }
   .totalNav .Nav1 img {
     height: 25px;
@@ -136,6 +137,7 @@
   }
   .transparent .Nav1 {
     display: flex;
+    background: rgba(136, 150, 157, 0.5);
   }
   .transparent .Nav1 img {
     height: 25px;
