@@ -17,7 +17,7 @@ também é possível visualizar erros de *lint*.
 ## Sobre o projeto
 É um template branco e moderno para venda de sites 
 
-*OB1: A versão para dispositivos móveis será atualizada em breve.
+*OB1: A versão para dispositivos móveis será atualizada em breve.*
 
 ## Ferramentas e linguagens
 <div style="display: inline_block"><br>
