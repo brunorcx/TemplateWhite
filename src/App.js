@@ -229,7 +229,7 @@ const App = () => {
               <p>Utilizamos bibliotecas de ponta e atuais, criamos o sistema da sua escolha.</p>
             </div>
             <div className="subgrid-4">
-              <h2>Indicações!</h2>
+              <h2>Indicações e mais!</h2>
               <strong>Descontos</strong>
               <p>A cada indicação feita você ganha um bom desconto no próximo site.</p>
             </div>
