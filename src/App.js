@@ -88,7 +88,9 @@ const App = () => {
         <p>Escolha o plano que mais se encaixa com a sua necessidade</p>
         <div className={grid3Class}>
           <div className="area-1">
-            <BsPiggyBank size="3.5vw" />
+            <div className="icon">
+              <BsPiggyBank size="4vw" />
+            </div>
             <div>Bronze</div>
             <h2>
               R$ 69,90<span>/mês</span>
@@ -102,7 +104,7 @@ const App = () => {
             </ul>
           </div>
           <div className="area-2">
-            <AiOutlineCloudServer size="3.5vw" />
+            <AiOutlineCloudServer size="4vw" />
             <div>Silver</div>
             <h2>
               R$ 99,90<span>/mês</span>
@@ -117,7 +119,7 @@ const App = () => {
             </ul>
           </div>
           <div className="area-3">
-            <GiGoldBar size="3.5vw" />
+            <GiGoldBar size="4vw" />
             <div>Gold</div>
             <h2>R$ 999,90+</h2>
             <ul>
