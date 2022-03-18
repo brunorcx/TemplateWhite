@@ -120,6 +120,11 @@
   margin-left: 10%;
   margin-bottom: 7%;
 }
+@media only screen and (min-width: 320px) and (max-width: 530px) {
+  .App .Planos .grid-3 li {
+    width: 100%;
+  }
+}
 .App .Planos .grid-3 .area-1 {
   animation-name: translateY;
   animation-duration: 1.5s;
@@ -173,7 +178,6 @@
     border-bottom: 1px solid rgba(66, 74, 78, 0.5);
     padding-top: 10%;
     padding-bottom: 5%;
-    white-space: nowrap;
     display: flex;
     flex-direction: column;
     align-items: center;
