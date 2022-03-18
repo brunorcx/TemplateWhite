@@ -110,6 +110,11 @@
   margin: 0 10%;
   opacity: 1;
 }
+@media only screen and (min-width: 320px) and (max-width: 530px) {
+  .App .Planos .grid-3 {
+    display: block;
+  }
+}
 .App .Planos .grid-3 li {
   text-align: left;
   margin-left: 10%;
@@ -120,6 +125,13 @@
   animation-duration: 1.5s;
   opacity: 1;
 }
+@media only screen and (min-width: 320px) and (max-width: 530px) {
+  .App .Planos .grid-3 .area-1 {
+    border-bottom: 1px solid rgba(66, 74, 78, 0.5);
+    padding-top: 10%;
+    padding-bottom: 5%;
+  }
+}
 .App .Planos .grid-3 .area-2 {
   animation-name: translateY;
   animation-duration: 1.5s;
@@ -128,11 +140,26 @@
   border-right: 1px solid rgba(66, 74, 78, 0.5);
   border-left: 1px solid rgba(66, 74, 78, 0.5);
 }
+@media only screen and (min-width: 320px) and (max-width: 530px) {
+  .App .Planos .grid-3 .area-2 {
+    border: none;
+    border-bottom: 1px solid rgba(66, 74, 78, 0.5);
+    padding-top: 10%;
+    padding-bottom: 5%;
+  }
+}
 .App .Planos .grid-3 .area-3 {
   animation-name: translateY;
   animation-duration: 1.5s;
   opacity: 1;
   animation-duration: 2.4s;
+}
+@media only screen and (min-width: 320px) and (max-width: 530px) {
+  .App .Planos .grid-3 .area-3 {
+    border-bottom: 1px solid rgba(66, 74, 78, 0.5);
+    padding-top: 10%;
+    padding-bottom: 5%;
+  }
 }
 .App .Planos p {
   margin-bottom: 5%;
@@ -333,11 +360,6 @@
 .App .App-header {
   font-size: calc(5px + 2vmin);
   font-weight: bold;
-}
-@media only screen and (min-width: 320px) and (max-width: 530px) {
-  .App {
-    display: block;
-  }
 }
 .transparent {
   background: none;
