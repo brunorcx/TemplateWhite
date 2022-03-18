@@ -20,6 +20,7 @@ This is a modern looking template for a website with animations
 *PS1: Support mobile resolutions*
 ## Landing Page
  <img align="center" alt="Javascript"  src="LandingPage.png">
+ 
 ## Tools and languages
 <div style="display: inline_block"><br>
   <img align="center" alt="Javascript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
