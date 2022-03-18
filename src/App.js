@@ -89,7 +89,7 @@ const App = () => {
         <div className={grid3Class}>
           <div className="area-1">
             <div className="icon">
-              <BsPiggyBank size="4vw" />
+              <BsPiggyBank size="6.5vh" />
             </div>
             <div>Bronze</div>
             <h2>
@@ -104,7 +104,7 @@ const App = () => {
             </ul>
           </div>
           <div className="area-2">
-            <AiOutlineCloudServer size="4vw" />
+            <AiOutlineCloudServer size="6.5vh" />
             <div>Silver</div>
             <h2>
               R$ 99,90<span>/mês</span>
@@ -119,7 +119,7 @@ const App = () => {
             </ul>
           </div>
           <div className="area-3">
-            <GiGoldBar size="4vw" />
+            <GiGoldBar size="6.5vh" />
             <div>Gold</div>
             <h2>R$ 999,90+</h2>
             <ul>
