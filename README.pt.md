@@ -19,6 +19,9 @@ também é possível visualizar erros de *lint*.
 
 *OB1: Suporta resoluções para dispositivos móveis.*
 
+## Landing Page
+ <img align="center" alt="Javascript"  src="LandingPage.png">
+ 
 ## Ferramentas e linguagens
 <div style="display: inline_block"><br>
   <img align="center" alt="Javascript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
