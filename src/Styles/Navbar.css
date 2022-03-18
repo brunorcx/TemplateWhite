@@ -40,11 +40,12 @@
   .totalNav {
     align-items: flex-start;
     display: block;
-    background: none;
+    background: rgba(136, 150, 157, 0.5);
+    height: 2.5rem;
+    transition: 0.3s;
   }
   .totalNav .Nav1 {
     display: flex;
-    background: rgba(136, 150, 157, 0.5);
   }
   .totalNav .Nav1 img {
     height: 25px;
@@ -133,11 +134,12 @@
   .transparent {
     align-items: flex-start;
     display: block;
-    background: none;
+    background: rgba(136, 150, 157, 0.5);
+    height: 2.5rem;
+    transition: 0.3s;
   }
   .transparent .Nav1 {
     display: flex;
-    background: rgba(136, 150, 157, 0.5);
   }
   .transparent .Nav1 img {
     height: 25px;
@@ -181,5 +183,11 @@
     width: 100%;
     background: #4d565b;
     height: 100vh;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 530px) {
+  .transparent {
+    height: 0;
+    transition: 0.3s;
   }
 }

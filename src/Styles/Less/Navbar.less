@@ -46,10 +46,12 @@
   @media @phone {
     align-items: flex-start;
     display: block;
-    background: none;
+    background: @background-navbar;
+    height: 2.5rem;
+    transition: 0.3s;
+
     .Nav1 {
       display: flex;
-      background: @background-navbar;
       img {
         height: 25px;
         flex: 8;
@@ -100,4 +102,8 @@
 .transparent {
   .totalNav();
   background: none;
+  @media @phone {
+    height: 0;
+    transition: 0.3s;
+  }
 }
