@@ -38,7 +38,7 @@ const App = () => {
       }
     }
     if (easyIn !== "easy-in") {
-      if (scrollPosition > divRef.current[2]?.offsetTop - 30 && scrollPosition < divRef.current[3]?.offsetTop) {
+      if (scrollPosition > divRef.current[2]?.offsetTop - 500 && scrollPosition < divRef.current[3]?.offsetTop) {
         setModels("translate");
         setEasyIn("easy-in");
       }
@@ -71,6 +71,7 @@ const App = () => {
         }}
       >
         <img src="/Laptop-pexels-kevin-ku.jpg" alt="laptop"></img>
+        {/* <img src="/light-bulb.jpg" alt="laptop"></img> */}
         <div className="CentralizedText">
           <h1>Sites modernos e rápidos</h1>
           <h1>Especializados para você</h1>
