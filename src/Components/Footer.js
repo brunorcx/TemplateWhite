@@ -2,9 +2,9 @@ import "../Styles/Footer.css";
 import { BsFacebook, BsTwitter, BsLinkedin } from "react-icons/bs";
 const Footer = (props) => {
   return (
-    <div className="total-footer">
+    <footer className="total-footer">
       <div className="footer-container">
-        <footer className="footer">
+        <div className="footer">
           <ul className="social-icon">
             <li className="social-icon__item">
               <a className="social-icon__link" href="/">
@@ -39,9 +39,9 @@ const Footer = (props) => {
           <p>&copy;Rodrigues Desenvolvimento</p>
           <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
           <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-        </footer>
+        </div>
       </div>
-    </div>
+    </footer>
   );
 };
 

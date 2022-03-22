@@ -39,6 +39,9 @@
   margin: 10px 0;
   flex-wrap: wrap;
 }
+.footer-container .footer .social-icon {
+  padding-left: 0;
+}
 .footer-container .footer .social-icon__item,
 .footer-container .footer .menu__item {
   list-style: none;

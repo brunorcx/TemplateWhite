@@ -5,7 +5,7 @@ import { useState } from "react";
 const Navbar = (props) => {
   const [slideMenu, setSlideMenu] = useState(false);
   return (
-    <div className={props.transparent ? "transparent" : "totalNav"}>
+    <nav className={props.transparent ? "transparent" : "totalNav"}>
       <div className="Nav1">
         <img className="logo" src="/Logo.png" alt="logo"></img>
         <div className={slideMenu ? "Slide" : "MobHamburger"}>
@@ -48,7 +48,7 @@ const Navbar = (props) => {
           </li>
         </ul>
       </div>
-    </div>
+    </nav>
   );
 };
 export default Navbar;
