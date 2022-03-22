@@ -288,6 +288,11 @@
 .App .Contatos .area-1 {
   transform: translate(-50%, -20%);
 }
+@media only screen and (min-width: 320px) and (max-width: 530px) {
+  .App .Contatos .area-1 {
+    width: 130%;
+  }
+}
 .App .Contatos .area-1 img {
   mask-image: linear-gradient(160deg, #000000 60%, transparent 110%);
 }
@@ -302,6 +307,12 @@
 }
 .App .Contatos .area-2 {
   transform: translate(50%, -20%);
+}
+@media only screen and (min-width: 320px) and (max-width: 530px) {
+  .App .Contatos .area-2 {
+    width: 130%;
+    transform: translate(25%, -20%);
+  }
 }
 .App .Contatos .area-2 img {
   mask-image: linear-gradient(160deg, #000000 60%, transparent 110%);
