@@ -60,6 +60,9 @@
     top: 50%;
     transform: translate(-50%, -50%);
     white-space: nowrap;
+    @media @phone {
+      top: 60%;
+    }
   }
   button {
     color: #424a4e;
@@ -87,7 +90,7 @@
       vertical-align: middle;
       @media @phone {
         max-width: none;
-        width: 100%;
+        width: 105%;
         height: 720px;
         object-fit: cover;
         object-position: bottom;
